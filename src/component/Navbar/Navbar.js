@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { withRouter } from 'react-router'
 
-import imgIcon from '../../assets/images/firstminster.png'
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -66,7 +65,7 @@ const Navbar = () => {
           </li>
         </ul>
         <NavLink to='/profile' className='navbar__icon'>
-          <img src={imgIcon} alt='profile' />
+          <img src='./images/firstminster.png' alt='profile' />
         </NavLink>
       </nav>
     </header>

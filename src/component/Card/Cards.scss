@@ -10,20 +10,14 @@
     padding: 2rem;
   }
 
-  // &__carousel {
-  //   display: none;
-  // }
-
   &__item {
     display: flex;
     margin: 1rem 0.5rem 2rem 0rem;
-    // margin-bottom: 2rem;
 
     &__container {
       display: flex;
       flex-flow: column;
       width: 22rem;
-      // width: 19rem;
       height: 24rem;
       //   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
       -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));

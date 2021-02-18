@@ -26,8 +26,9 @@
       font-size: 14px;
       line-height: 1.4rem;
       text-align: left;
-      color: $grey-color;
       margin: 1rem 0;
+      color: $grey-color;
+      // @include set-background($light-color);
     }
   }
 
@@ -43,6 +44,7 @@
     padding: 1rem;
     text-align: justify;
     color: $grey-color;
+    // @include set-background($light-color);
 
     &-text1 {
       font-size: 14px;
@@ -62,6 +64,7 @@
     padding: 1rem;
     text-align: justify;
     color: $grey-color;
+    // @include set-background($light-color);
 
     &-text1 {
       font-size: 14px;

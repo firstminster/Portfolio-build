@@ -1,7 +1,6 @@
 import React from 'react'
 
 import SocialMedia from '../../component/SocialMedia'
-import Minster from '../../assets/images/minister2.png'
 import './Profile.scss'
 
 const Profile = () => {
@@ -19,7 +18,7 @@ const Profile = () => {
         <button className='btn btn-primary'>Download CV</button>
       </div>
       <div className='profile__image'>
-        <img src={Minster} alt='profile-img' />
+        <img src='./images/minister2.png' alt='profile-img' />
       </div>
       <div className='profile__paragraph1'>
         <article className='profile__paragraph1-text1'>

@@ -1,3 +1,4 @@
+// Variables
 $font-stack: 'Roboto', sans-serif;
 $light-color: #ffffff;
 $dark-color: #000000;
@@ -6,5 +7,23 @@ $primary-color: #17ccca;
 $secondary-color: #1f98f4;
 $linkedin-color: #2867b2;
 $instagram-color: #c13584;
-$success-color: #000000;
-$danger-color: #000000;
+
+// $success-color: #000000;
+// $danger-color: #000000;
+
+// Functions: returns something.
+// Set text color based on bg
+@function set-text-color($color) {
+  @if (lightness($color) > 70) {
+    @return $dark-color;
+  } @else {
+    @return $light-color;
+  }
+}
+
+// Mixins
+// Set background & text color
+@mixin set-background($color) {
+  background-color: $color;
+  color: set-text-color($color);
+}

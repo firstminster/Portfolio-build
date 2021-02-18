@@ -77,7 +77,8 @@ form {
   height: auto;
 
   input {
-    background: var(--light-color);
+    // background: var(--light-color);
+    @include set-background($light-color);
     padding: 1rem;
     margin: 0.8rem 0;
     width: 30rem;
@@ -119,7 +120,7 @@ form {
 
       .social-icon {
         display: flex;
-        flex-direction: row;
+        // flex-direction: row;
       }
     }
 
@@ -162,9 +163,10 @@ form {
     }
   }
 }
-// Contact mobile @769px
-@media screen and (max-width: 769px) {
-}
-// Contact mobile @481px
-@media screen and (max-width: 481px) {
-}
+
+// // Contact mobile @769px
+// @media screen and (max-width: 769px) {
+// }
+// // Contact mobile @481px
+// @media screen and (max-width: 481px) {
+// }

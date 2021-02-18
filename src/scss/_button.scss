@@ -1,0 +1,24 @@
+// Inheritance
+%btn {
+  padding: 15px 20px;
+  width: 10rem;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  letter-spacing: 1px;
+
+  &:hover {
+    filter: brightness(0.9);
+    transition: all 0.3s ease-in;
+    transform: scale(0.98);
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+  @include set-background($primary-color);
+  border: 1px solid $primary-color;
+}

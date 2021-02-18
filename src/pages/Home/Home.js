@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import SocialMedia from '../../component/SocialMedia'
 import './Home.scss'
-import buzzMe from '../../assets/images/buzzme.jpg'
 
 const Home = () => {
   return (
@@ -23,7 +22,7 @@ const Home = () => {
         <button className='btn btn-primary'>Download CV</button>
       </div>
       <div className='home__content'>
-        <img src={buzzMe} alt='buzz-me' />
+        <img src='./images/buzzme.jpg' alt='buzz-me' />
       </div>
       <div className='home__social'>
         <SocialMedia />

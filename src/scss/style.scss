@@ -1,30 +1,16 @@
 @import 'config';
 @import 'utilities';
-// @import 'mobile';
+@import 'button';
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  //   outline: none;
+  outline: none;
 }
 
 body {
   font-family: $font-stack;
-  background-color: $light-color;
-}
-
-img {
-  width: 100%;
-  object-fit: contain;
-}
-
-.readmore-icon {
-  display: block;
-}
-
-.getin-touch {
-  display: block;
-  font-weight: 900;
+  @include set-background($light-color);
 }

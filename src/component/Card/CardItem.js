@@ -7,7 +7,7 @@ const CardItem = ({ label, src, text }) => {
       <div className='cards__item'>
         <div className='cards__item__container'>
           <figure className='cards__item__pic-wrap' data-category={label}>
-            <img src={src} alt='' className='cards__item__img' />
+            <img src={src} alt={label} className='cards__item__img' />
           </figure>
           <div className='cards__item__info'>
             <p className='cards__item__text'>{text}</p>

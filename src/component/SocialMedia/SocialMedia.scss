@@ -1,0 +1,34 @@
+@import '../../scss/style.scss';
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  i {
+    padding: 1rem;
+    font-size: 25px;
+    color: $dark-color;
+  }
+
+  .fa-linkedin,
+  .fa-github,
+  .fa-instagram {
+    color: $grey-color;
+  }
+
+  .fa-linkedin:hover {
+    color: $linkedin-color;
+    transition: all 0.3s ease-in;
+  }
+
+  .fa-instagram:hover {
+    color: $instagram-color;
+    transition: all 0.3s ease-in;
+  }
+
+  .fa-github:hover {
+    color: $dark-color;
+    transition: all 0.3s ease-in;
+  }
+}

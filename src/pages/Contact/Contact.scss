@@ -1,0 +1,170 @@
+@import '../../scss/style.scss';
+
+// Contact page layout
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 90%;
+  margin: 2rem auto;
+  max-width: 1300px;
+
+  &__brief {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+    height: auto;
+
+    &-title {
+      font-size: 39px;
+      font-weight: 900;
+    }
+
+    &-title2 {
+      color: $grey-color;
+      margin-top: 1rem;
+    }
+
+    &-text {
+      font-size: 14px;
+      line-height: 1.4rem;
+      text-align: left;
+      color: $grey-color;
+      margin: 1rem 0;
+    }
+
+    &-phone {
+      font-size: 14px;
+      line-height: 1.4rem;
+      text-align: left;
+      color: $grey-color;
+      margin-top: 1rem;
+    }
+
+    &-email {
+      font-size: 14px;
+      line-height: 1.4rem;
+      text-align: left;
+      color: $grey-color;
+    }
+  }
+
+  .inactive-icon {
+    display: none;
+  }
+
+  &__content {
+    flex: 1;
+    text-align: center;
+    margin-top: 2rem;
+
+    &-title {
+      font-size: 2rem;
+    }
+  }
+}
+
+// Contact Form
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 100px;
+  height: auto;
+
+  input {
+    background: var(--light-color);
+    padding: 1rem;
+    margin: 0.8rem 0;
+    width: 30rem;
+    height: 2.5rem;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid $grey-color;
+  }
+
+  textarea {
+    width: 30rem;
+    padding: 1rem;
+    font-size: 17px;
+    font-family: $font-stack;
+    margin: 0.8rem 0;
+    border: none;
+    border-bottom: 1px solid $grey-color;
+  }
+
+  .btn-form {
+    margin-top: 1rem;
+
+    .btn {
+      width: 8rem;
+    }
+  }
+}
+
+// Contact mobile @1110px
+@media screen and (max-width: 1110px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    margin: 4rem auto auto auto;
+
+    .inactive-icon {
+      display: block;
+
+      .social-icon {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    &__brief {
+      align-items: center;
+      width: 100%;
+
+      &-text {
+        text-align: center;
+      }
+    }
+
+    &__content {
+      flex: none;
+      text-align: center;
+    }
+  }
+
+  .contact__social {
+    display: none;
+    flex-direction: row;
+  }
+
+  form {
+    padding: 10px 50px;
+    input {
+      width: 150%;
+    }
+
+    textarea {
+      width: 150%;
+    }
+
+    .btn-form {
+      margin-top: 1rem;
+
+      .btn {
+        width: 8rem;
+      }
+    }
+  }
+}
+// Contact mobile @769px
+@media screen and (max-width: 769px) {
+}
+// Contact mobile @481px
+@media screen and (max-width: 481px) {
+}

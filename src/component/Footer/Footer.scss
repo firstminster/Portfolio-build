@@ -1,0 +1,49 @@
+@import '../../scss/style.scss';
+
+.footer {
+  // background: $dark-color;
+  color: $dark-color;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 3rem 0;
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    // letter-spacing: 1px;
+  }
+  img {
+    width: 15px;
+  }
+
+  &__heart {
+    animation: heart 0.7s ease-in-out 4s infinite alternate,
+      delay-abit 0.3s linear 3s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes heart {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes delay-abit {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1);
+    }
+  }
+}

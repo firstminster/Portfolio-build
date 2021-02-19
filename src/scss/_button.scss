@@ -13,6 +13,9 @@
   &:hover {
     filter: brightness(0.9);
     transition: all 0.3s ease-in;
+  }
+
+  &:active {
     transform: scale(0.98);
   }
 }

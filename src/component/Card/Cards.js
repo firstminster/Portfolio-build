@@ -28,9 +28,12 @@ const Cards = () => {
         >
           {data.map(project => (
             <CardItem
-              src={project.image}
-              text={project.techstack}
-              label={project.title}
+              key={project._id}
+              image={project.image}
+              techstack={project.techstack}
+              title={project.title}
+              gitrepo={project.gitrepo}
+              demo={project.demo}
             />
           ))}
         </Carousel>
@@ -39,9 +42,12 @@ const Cards = () => {
       <div className='cards__items cards__mobile--active'>
         {data.map(project => (
           <CardItem
-            src={project.image}
-            text={project.techstack}
-            label={project.title}
+            key={project._id}
+            image={project.image}
+            techstack={project.techstack}
+            title={project.title}
+            gitrepo={project.gitrepo}
+            demo={project.demo}
           />
         ))}
       </div>

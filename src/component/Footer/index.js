@@ -1,6 +1,5 @@
 import React from 'react'
 
-import heartImg from '../../assets/images/heart.png'
 import './Footer.scss'
 
 const index = () => {
@@ -8,7 +7,7 @@ const index = () => {
     <footer className='footer'>
       <p className='footer__text'>
         Created with{' '}
-        <img src={heartImg} alt='heart' className='footer__heart' />{' '}
+        <img src='./images/heart.png' alt='heart' className='footer__heart' />{' '}
         Firstminster {new Date().getFullYear()}
         &copy;
       </p>

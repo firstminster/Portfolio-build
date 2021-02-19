@@ -6,11 +6,21 @@ import './Navbar.scss'
 
 const Navbar = () => {
   const [click, setClick] = useState(false)
+  const [isActive, setIsActive] = useState(false)
 
   // Toggle hamburger icon
   const handleClick = () => setClick(!click)
   // Close mobile menu-list
-  const closeMobileMenu = () => setClick(false)
+  const closeMobileMenu = () => {
+    setClick(false)
+    console.log('Im here')
+    activeNavHandler()
+  }
+
+  // Set NavLink active
+  const activeNavHandler = () => {
+    setIsActive(!isActive)
+  }
 
   return (
     <header className='navbar'>
@@ -24,9 +34,9 @@ const Navbar = () => {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <NavLink
-              strict
               to='/'
-              activeClassName='active'
+              // activeClassName='active'
+              // className={`nav-links ${isActive && 'active'}`}
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -36,7 +46,8 @@ const Navbar = () => {
           <li className='nav-item'>
             <NavLink
               to='/portfolio'
-              activeClassName='active'
+              // activeClassName='active'
+              // className={`nav-links ${isActive && 'active'}`}
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -46,7 +57,7 @@ const Navbar = () => {
           <li className='nav-item'>
             <NavLink
               to='/profile'
-              activeClassName='active'
+              // activeClassName='active'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
@@ -56,8 +67,9 @@ const Navbar = () => {
           <li className='nav-item'>
             <NavLink
               to='/contact'
-              activeClassName='active'
-              className='nav-links '
+              // activeClassName='active'
+              // className={`nav-links ${isActive && 'active'}`}
+              className='nav-links'
               onClick={closeMobileMenu}
             >
               Contact

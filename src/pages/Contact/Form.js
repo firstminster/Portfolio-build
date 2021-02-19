@@ -2,7 +2,13 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <form action='POST' data-netlify='true'>
+    <form
+      name='contact'
+      method='POST'
+      data-netlify-recaptcha='true'
+      netlify-honeypot='bot-field'
+      data-netlify='true'
+    >
       <input type='text' name='name' id='name' placeholder='Name' required />
       <input type='text' name='email' id='email' placeholder='Email' required />
       <input
@@ -28,7 +34,7 @@ const Form = () => {
         rows='7'
         style={{ border: 'none' }}
       />
-      <div className='' data-netlify-recaptcha='true'></div>
+      <div data-netlify-recaptcha='true'></div>
       <div className='btn-form'>
         <button type='submit' className='btn btn-primary'>
           Send

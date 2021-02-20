@@ -77,8 +77,8 @@ const Form = () => {
         // onChange={handleChange}
         required
       ></textarea>
-      {/* <input
-        className='form__file'
+      <input
+        // className='form__file'
         type='file'
         name='myfile'
         id='myfile-input'
@@ -86,8 +86,8 @@ const Form = () => {
         rows='7'
         style={{ border: 'none' }}
         // onChange={handleChange}
-      /> */}
-      <div data-netlify-recaptcha='true'></div>
+      />
+      {/* <div data-netlify-recaptcha='true'></div> */}
       {/* Recaptcha */}
       {/* <Recaptcha
         ref={recaptchaRef}

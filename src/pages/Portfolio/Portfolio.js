@@ -28,9 +28,9 @@ const Portfolio = () => {
           <div className='portfolio__brief'>
             <h1 className='portfolio__brief-title'>Portfolio</h1>
             <p className='portfolio__brief-text'>
-              These are some of the works of which I am particularly proud. I
-              have expertise in web development, UX design, 2D animation and
-              Video production.
+              These are some of the real world projects and fictional Projects I
+              have worked on. I never stop Creating, so this section won't stop
+              expanding.
               <span className='readmore-icon'>
                 <Link to='/profile' className='portfolio__brief-link'>
                   Read More <i className='fas fa-chevron-right'></i>

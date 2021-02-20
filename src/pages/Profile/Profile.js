@@ -13,7 +13,7 @@ const Profile = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 800)
+    }, 1000)
   }, [])
 
   return (
@@ -25,10 +25,10 @@ const Profile = () => {
           <div className='profile__brief'>
             <h1 className='profile__brief-title'>Chinecherem Harry</h1>
             <p className='profile__brief-text'>
-              A Software Developer, content creator, and an enthusiast with 8
-              years of experience building Graphic illustrations, 2D art, and
-              character design, Animations, UI design, etc, Looking to
-              collaborate with a passionate design team.
+              A software developer, with an outstanding experience in front-end
+              and a great technical understanding of the backend. I anticipate
+              to collaborate with a passionate team to make positive and lasting
+              impact.
               <span className='getin-touch'>"Get in touch".</span>
             </p>
             <button className='btn btn-primary'>Download CV</button>
@@ -40,10 +40,10 @@ const Profile = () => {
             <article className='profile__paragraph1-text1'>
               <h3 className='profile__paragraph1-title1'>My Qualifications</h3>
               <p>
-                BSc – Visual Arts and Visual Communication Design at Eastern
-                Mediterranean University, North Cyprus, Turkey | 2012/2016
-                Masters – Applied Digital Media at Griffith College Dublin. |
-                2019/2020
+                BSc – Information Technology at Eastern Mediterranean
+                University, North Cyprus, Turkey | 2014/2018. Masters – IT and
+                Management in Informatics at University West, Sweden. |
+                2019/Present.
               </p>
             </article>
             <article className='profile__paragraph1-text1'>
@@ -51,25 +51,24 @@ const Profile = () => {
                 Why you should hire me?
               </h3>
               <p>
-                Passion-driven design professional incredibly diligent in
-                multimedia design practice and team collaborations. My years of
-                experience and vast skills set are two things I am confident
-                will be of great benefit to getting the job done. Because I
-                enjoy what I do, I specialise in a vast area. Particularly, I’m
-                an expert at creating and identifying good design looks. My
-                mission is to turn dreams and imaginations into reality.
+                Passion-driven software professional incredibly diligent in
+                Full-Stack development and team collaborations with several
+                freelance projects and satisfied customers under my belt. My
+                years of experience and journey in Software Development and the
+                vast skills set are two things I am confident will be of great
+                benefit to getting the job done. Because I enjoy what I do, I
+                specialise in a vast area. Particularly, my proficiency to
+                create dynamic and user friendly
               </p>
             </article>
           </div>
           <div className='profile__paragraph2'>
             <article className='profile__paragraph2-text1'>
               <p>
-                By unifying images, photography, and typography, my designs are
-                usually highly reflective of the audience/client’s expectations.
-                I also specialize in other Art forms like 2D Art and Character
-                Design, Animation, Video Production.You would also find my
-                strong research and project skills in graphic design is highly
-                valuable to your team in developing my UI Design.
+                web applications which helps to digitalize certain typical
+                processes that delivers contemporary services to users is what I
+                am most fascinated about. My mission is to turn dreams and
+                imaginations into reality.
               </p>
             </article>
             <article className='profile__paragraph2-text2'>
@@ -81,11 +80,13 @@ const Profile = () => {
             </article>
             <article className='profile__paragraph2-text3'>
               <h3 className='profile__paragraph2-title2'>Skill Set</h3>
-              <p>
-                Illustrator, Photoshop, Adobe XD, Word Press, Elementor, CSS,
-                Html5, Indesign, Moho, After-Effect, Adobe Premiere. Microsoft
-                Package.
-              </p>
+              <p style={{ fontWeight: '400' }}>Front-end Stacks:</p>
+              <span>
+                ReactJs, Typescript, Javascript, CSS, Scss, Redux, Redux thunk,
+                Context API, Material-UI, Bootstrap, Adobe Photoshop.
+              </span>
+              <p style={{ fontWeight: '400' }}>Backend Stacks:</p>
+              <span>Express, MongoDb, NodeJs, Sql,.</span>
             </article>
           </div>
           <div className='profile__social'>

@@ -52,7 +52,7 @@
   }
 }
 
-// Cards mobile @1110px
+// Portfolio mobile @1110px
 @media screen and (max-width: 1110px) {
   .portfolio {
     justify-content: center;
@@ -79,14 +79,14 @@
     }
   }
 }
-// Cards mobile @769px
+// Portfolio mobile @769px
 @media screen and (max-width: 769px) {
   .portfolio {
-    height: 290vh;
+    height: 350vh;
 
-    &__content {
-      margin-top: -10rem;
-    }
+    // &__content {
+    //   margin-top: -10rem;
+    // }
 
     .cards__desktop--active {
       display: none;
@@ -97,10 +97,10 @@
     }
   }
 }
-// Cards mobile @481px
+// Portfolio mobile @481px
 @media screen and (max-width: 481px) {
   .portfolio {
-    height: 310vh;
+    height: 360vh;
     margin: 4rem auto auto auto;
   }
 }

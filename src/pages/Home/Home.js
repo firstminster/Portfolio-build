@@ -27,10 +27,10 @@ const Home = () => {
           <div className='home__brief'>
             <h1>Welcome</h1>
             <p className='home__brief-text'>
-              Hello Chinecherem Harry here, i’m a Software Developr seeking to
-              join a positive and creative team. Design is my life so I’m
-              dedicated to giving work to your needs for digital and visual
-              communication.
+              Hello! Chinecherem Harry here, i'm a Software Developer based in
+              Sweden who loves building responsive and user friendly web apps
+              and have a strong knowledge about the backend technologies. With
+              every line of code, I strive to make the web a beautiful place.
               <span className='readmore-icon'>
                 <Link to='/profile' className='home__brief-link'>
                   Read More <i className='fas fa-chevron-right'></i>

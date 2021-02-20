@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+
 import { NavLink } from 'react-router-dom'
 import { withRouter } from 'react-router'
 
@@ -34,9 +35,9 @@ const Navbar = () => {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <NavLink
+              exact
               to='/'
-              // activeClassName='active'
-              // className={`nav-links ${isActive && 'active'}`}
+              activeClassName='active'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -46,8 +47,7 @@ const Navbar = () => {
           <li className='nav-item'>
             <NavLink
               to='/portfolio'
-              // activeClassName='active'
-              // className={`nav-links ${isActive && 'active'}`}
+              activeClassName='active'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -57,7 +57,7 @@ const Navbar = () => {
           <li className='nav-item'>
             <NavLink
               to='/profile'
-              // activeClassName='active'
+              activeClassName='active'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
@@ -67,8 +67,7 @@ const Navbar = () => {
           <li className='nav-item'>
             <NavLink
               to='/contact'
-              // activeClassName='active'
-              // className={`nav-links ${isActive && 'active'}`}
+              activeClassName='active'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -76,6 +75,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+
         <NavLink to='/profile' className='navbar__icon'>
           <img src='./images/firstminster.png' alt='profile' />
         </NavLink>

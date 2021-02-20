@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from 'react-elastic-carousel'
 
 import CardItem from './CardItem'
+
 import { data } from '../../projectData'
 
 import './Cards.scss'

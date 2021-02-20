@@ -30,9 +30,9 @@ const Contact = () => {
               inquiry. I am looking forward to working with you.
             </p>
             <h2 className='contact__brief-title2'>Contact us</h2>
-            <p className='contact__brief-phone'>Phone: +111-33-000-997</p>
+            <p className='contact__brief-phone'>Phone: +46-000-000-000</p>
             <p className='contact__brief-email'>
-              Email: chinecherempharry@gmail.com
+              Email: promiseharrycyber@gmail.com
             </p>
           </div>
           <div className='inactive-icon'>

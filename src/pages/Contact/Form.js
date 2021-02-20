@@ -36,14 +36,14 @@ const Form = () => {
 
   return (
     <form
-      name='contact'
+      name='contact-form'
       method='POST'
       // data-netlify-recaptcha='true'
       data-netlify='true'
       action='/contact'
       // onSubmit={handleSubmit}
     >
-      <input type='hidden' name='form-name' value='contact' />
+      <input type='hidden' name='form-name' value='contact-form' />
       <input
         type='text'
         name='name'

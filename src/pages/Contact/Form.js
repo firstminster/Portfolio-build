@@ -38,11 +38,12 @@ const Form = () => {
     <form
       name='contact'
       method='POST'
-      data-netlify-recaptcha='true'
+      // data-netlify-recaptcha='true'
       data-netlify='true'
-      // action='POST'
+      action='/contact'
       // onSubmit={handleSubmit}
     >
+      <input type='hidden' name='form-name' value='contact' />
       <input
         type='text'
         name='name'
@@ -76,7 +77,7 @@ const Form = () => {
         // onChange={handleChange}
         required
       ></textarea>
-      <input
+      {/* <input
         className='form__file'
         type='file'
         name='myfile'
@@ -85,7 +86,7 @@ const Form = () => {
         rows='7'
         style={{ border: 'none' }}
         // onChange={handleChange}
-      />
+      /> */}
       <div data-netlify-recaptcha='true'></div>
       {/* Recaptcha */}
       {/* <Recaptcha
@@ -99,7 +100,7 @@ const Form = () => {
         <button
           type='submit'
           className='btn btn-primary'
-          disabled={buttonDisabled}
+          // disabled={buttonDisabled}
         >
           Send
         </button>

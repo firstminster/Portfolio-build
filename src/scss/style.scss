@@ -13,4 +13,8 @@
 body {
   font-family: $font-stack;
   @include set-background($light-color);
+
+  .body-form {
+    display: none;
+  }
 }

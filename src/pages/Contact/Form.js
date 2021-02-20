@@ -65,7 +65,6 @@ const Form = () => {
         name='subject'
         id='subject-input'
         placeholder='Subject'
-        // onChange={handleChange}
         required
       />
       <textarea

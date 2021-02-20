@@ -83,6 +83,7 @@ const Form = () => {
         placeholder='Upload File'
         rows='7'
         style={{ border: 'none' }}
+        onChange={handleChange}
       />
       <div data-netlify-recaptcha='true'></div>
       {/* Recaptcha */}

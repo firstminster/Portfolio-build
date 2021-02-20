@@ -77,12 +77,14 @@ const Form = () => {
         required
       ></textarea>
       <input
+        className='form__file'
         type='file'
         name='myfile'
         id='myfile-input'
         placeholder='Upload File'
         rows='7'
         style={{ border: 'none' }}
+        onChange={handleChange}
       />
       <div data-netlify-recaptcha='true'></div>
       {/* Recaptcha */}

@@ -38,10 +38,9 @@ const Form = () => {
     <form
       name='contact'
       method='POST'
-      data-netlify='true'
-      netlify-honeypot='bot-field'
       data-netlify-recaptcha='true'
-      // action='POST'
+      data-netlify='true'
+      action='POST'
       onSubmit={handleSubmit}
     >
       <input
@@ -85,9 +84,9 @@ const Form = () => {
         placeholder='Upload File'
         rows='7'
         style={{ border: 'none' }}
-        // onChange={handleChange}
+        onChange={handleChange}
       />
-      <div data-netlify-recaptcha='true'></div>
+
       {/* Recaptcha */}
       <Recaptcha
         ref={recaptchaRef}

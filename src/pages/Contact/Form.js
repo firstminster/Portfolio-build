@@ -2,7 +2,7 @@
 import React from 'react'
 // import Recaptcha from 'react-google-recaptcha'
 
-// const RECAPTCHA_KEY = '6LePqF8aAAAAAJuZH3UUGdBB8UmIILvRALvF8ytv'
+const RECAPTCHA_KEY = '6LePqF8aAAAAAJuZH3UUGdBB8UmIILvRALvF8ytv'
 
 const Form = () => {
   // const [state, setState] = React.useState({})

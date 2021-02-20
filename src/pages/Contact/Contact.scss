@@ -105,6 +105,10 @@ form {
       width: 8rem;
     }
   }
+
+  button[disabled] {
+    cursor: not-allowed;
+  }
 }
 
 // Contact mobile @1110px

@@ -77,6 +77,7 @@ const Form = () => {
         required
       ></textarea>
       <input
+        className='form__file'
         type='file'
         name='myfile'
         id='myfile-input'

@@ -16,7 +16,7 @@ const Portfolio = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 800)
+    }, 900)
   }, [])
 
   return (

@@ -171,6 +171,10 @@ form {
 // // Contact mobile @769px
 // @media screen and (max-width: 769px) {
 // }
-// // Contact mobile @481px
-// @media screen and (max-width: 481px) {
-// }
+// Contact mobile @481px
+@media screen and (max-width: 481px) {
+  .contact {
+    // height: 150vh;
+    margin: 6rem auto auto auto;
+  }
+}

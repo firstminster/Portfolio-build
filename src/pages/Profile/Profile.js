@@ -90,7 +90,7 @@ const Profile = () => {
                 Context API, Material-UI, Bootstrap, Adobe Photoshop.
               </span>
               <p style={{ fontWeight: '400' }}>Backend Stacks:</p>
-              <span>Express, MongoDb, NodeJs, Sql,.</span>
+              <span>Express, MongoDb, NodeJs, Sql, Firebase.</span>
             </article>
           </div>
           <div className='profile__social'>

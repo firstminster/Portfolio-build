@@ -17,7 +17,7 @@ export const data = [
     techstack: 'React, Typescript, Redux, Thunk, Material-UI, REST-API',
     image: './images/global.png',
     gitrepo: 'https://github.com/firstminster',
-    demo: 'https://inspiring-torvalds-a0903b.netlify.app/',
+    demo: 'https://globalapp.netlify.app/',
   },
   {
     _id: '2',

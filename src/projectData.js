@@ -26,7 +26,7 @@ export const data = [
     techstack: 'Javascript, HTML, CSS, DOM',
     image: './images/budgety.png',
     gitrepo: 'https://github.com/firstminster/budget-app',
-    demo: '#',
+    demo: 'https://budgetmeapp.netlify.app/',
   },
   {
     _id: '3',

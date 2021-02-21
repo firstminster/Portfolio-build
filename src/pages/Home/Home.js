@@ -40,7 +40,7 @@ const Home = () => {
             <button className='btn btn-primary'>Download CV</button>
           </div>
           <div className='home__content'>
-            <img src='./images/buzzme.jpg' alt='buzz-me' />
+            <img src='./images/buzzme.jpg' alt='buzz-me' loading='lazy' />
           </div>
           <div className='home__social'>
             <SocialMedia />

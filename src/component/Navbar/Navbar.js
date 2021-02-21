@@ -77,7 +77,7 @@ const Navbar = () => {
         </ul>
 
         <NavLink to='/profile' className='navbar__icon'>
-          <img src='./images/firstminster.png' alt='profile' />
+          <img src='./images/firstminster.png' alt='profile' loading='lazy' />
         </NavLink>
       </nav>
     </header>

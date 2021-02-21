@@ -5,7 +5,12 @@ const CardItem = ({ image, techstack, title, gitrepo, demo, ...props }) => {
     <div className='cards__item' key={props.key} onClick={props.handleClick}>
       <div className='cards__item__container'>
         <figure className='cards__item__pic-wrap' data-category={title}>
-          <img src={image} alt={title} className='cards__item__img' />
+          <img
+            src={image}
+            alt={title}
+            className='cards__item__img'
+            loading='lazy'
+          />
         </figure>
         <div className='cards__item__info'>
           <p className='cards__item__text'>{techstack}</p>

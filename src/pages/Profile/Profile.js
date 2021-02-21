@@ -34,7 +34,11 @@ const Profile = () => {
             <button className='btn btn-primary'>Download CV</button>
           </div>
           <div className='profile__image'>
-            <img src='./images/minister2.png' alt='profile-img' />
+            <img
+              src='./images/minister2.png'
+              alt='profile-img'
+              loading='lazy'
+            />
           </div>
           <div className='profile__paragraph1'>
             <article className='profile__paragraph1-text1'>

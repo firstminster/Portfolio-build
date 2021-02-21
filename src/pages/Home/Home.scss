@@ -102,21 +102,31 @@
         padding: 0rem;
       }
     }
+
+    .social-icon {
+      display: none;
+      flex-direction: row;
+    }
   }
 }
 
 // Home mobile @690px
 @media screen and (max-width: 690px) {
   .home {
-    margin-top: 3rem;
     height: 135vh;
+    margin: 6rem auto auto auto;
+
+    .social-icon {
+      display: flex;
+      // flex-direction: row;
+    }
   }
 }
 
 // Home mobile @481px
 @media screen and (max-width: 481px) {
   .home {
-    margin-top: 2rem;
-    height: 120vh;
+    height: 130vh;
+    margin: 6rem auto auto auto;
   }
 }

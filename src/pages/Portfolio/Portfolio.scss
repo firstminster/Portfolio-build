@@ -100,7 +100,14 @@
 // Portfolio mobile @481px
 @media screen and (max-width: 481px) {
   .portfolio {
-    height: 360vh;
-    margin: 4rem auto auto auto;
+    // height: 360vh;
+    margin: 6rem auto auto auto;
+  }
+}
+// Portfolio mobile @481px
+@media screen and (max-width: 381px) {
+  .portfolio {
+    height: 380vh;
+    margin: 6rem auto auto auto;
   }
 }

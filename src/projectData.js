@@ -32,7 +32,7 @@ export const data = [
     _id: '3',
     title: 'Personal Portfolio',
     description: 'My personal portfolio',
-    techstack: 'React, Scss, HTML, Flex',
+    techstack: 'React, Scss, HTML, Flex, Hooks',
     image: './images/portfolio.png',
     gitrepo: 'https://github.com/firstminster/Portfolio-build',
     demo: 'https://www.firstminster.dev/',

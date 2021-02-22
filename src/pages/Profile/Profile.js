@@ -86,7 +86,7 @@ const Profile = () => {
               <h3 className='profile__paragraph2-title2'>Skill Set</h3>
               <p style={{ fontWeight: '400' }}>Front-end Stacks:</p>
               <span>
-                ReactJs, Typescript, Javascript, CSS, Sass, Redux, Redux thunk,
+                ReactJs, Typescript, Javascript, CSS3, Sass, HTML5, Redux,
                 Context API, Material-UI, Bootstrap, Adobe Photoshop.
               </span>
               <p style={{ fontWeight: '400' }}>Backend Stacks:</p>

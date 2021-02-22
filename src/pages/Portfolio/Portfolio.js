@@ -28,9 +28,20 @@ const Portfolio = () => {
           <div className='portfolio__brief'>
             <h1 className='portfolio__brief-title'>Portfolio</h1>
             <p className='portfolio__brief-text'>
-              These are some of the real world projects and fictional Projects I
+              These are some of the real world projects and fictional projects I
               have worked on. I never stop Creating, so this section won't stop
-              expanding.
+              expanding. See more on{' '}
+              <span
+                style={{ textDecoration: 'underline', color: '$dark-color' }}
+              >
+                <a
+                  href='https://github.com/firstminster'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Github
+                </a>
+              </span>
               <span className='readmore-icon'>
                 <Link to='/profile' className='portfolio__brief-link'>
                   Read More <i className='fas fa-chevron-right'></i>

@@ -66,6 +66,7 @@
         }
 
         .active {
+          color: $dark-color;
           font-weight: 700;
           border-bottom: 4px solid $primary-color;
           transition: all 0.2s ease-out;
@@ -130,6 +131,10 @@
   }
 
   .nav-links:hover {
+    color: $dark-color !important;
+  }
+
+  .active {
     color: $dark-color !important;
   }
 

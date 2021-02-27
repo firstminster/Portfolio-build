@@ -61,8 +61,8 @@ const Profile = () => {
                 years of experience and journey in Software Development and the
                 vast skills set are two things I am confident will be of great
                 benefit to getting the job done. Because I enjoy what I do, I
-                specialise in a vast area. Particularly, my proficiency to
-                create dynamic and user friendly
+                specialise in a vast area. Particularly, my proficiency to build
+                dynamic and scalable
               </p>
             </article>
           </div>

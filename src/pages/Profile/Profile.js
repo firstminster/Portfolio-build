@@ -70,9 +70,9 @@ const Profile = () => {
             <article className='profile__paragraph2-text1'>
               <p>
                 web applications which helps to digitalize certain typical
-                processes that delivers contemporary services to users is what I
-                am most fascinated about. My mission is to turn dreams and
-                imaginations into reality.
+                processes that in turn delivers contemporary services to users
+                is what I am most fascinated about. My mission is to turn dreams
+                and imaginations into reality.
               </p>
             </article>
             <article className='profile__paragraph2-text2'>

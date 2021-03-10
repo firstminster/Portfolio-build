@@ -6,9 +6,9 @@ const index = () => {
   return (
     <footer className='footer'>
       <p className='footer__text'>
-        Created with{' '}
+        Designed with{' '}
         <img src='./images/heart.png' alt='heart' className='footer__heart' />{' '}
-        Firstminster {new Date().getFullYear()}
+        by Firstminster {new Date().getFullYear()}
         &copy;
       </p>
     </footer>

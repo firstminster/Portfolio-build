@@ -1,57 +1,59 @@
-import React, { useState, useEffect } from 'react'
-import HashLoader from 'react-spinners/HashLoader'
+import React, { useState, useEffect } from "react";
+import HashLoader from "react-spinners/HashLoader";
 
-import SocialMedia from '../../component/SocialMedia'
-import './Profile.scss'
+import SocialMedia from "../../component/SocialMedia";
+import "./Profile.scss";
 
 const Profile = () => {
-  const [loading, setLoading] = useState(false)
-  let [color] = useState('#17ccca')
+  const [loading, setLoading] = useState(false);
+  let [color] = useState("#17ccca");
 
   // Loads when the components mounts
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     setTimeout(() => {
-      setLoading(false)
-    }, 1000)
-  }, [])
+      setLoading(false);
+    }, 1000);
+  }, []);
 
   return (
-    <main className='profile'>
+    <main className="profile">
       {loading ? (
         <HashLoader color={color} loading={loading} size={50} />
       ) : (
         <>
-          <div className='profile__brief'>
-            <h1 className='profile__brief-title'>Chinecherem Harry</h1>
-            <p className='profile__brief-text'>
+          <div className="profile__brief">
+            <h1 className="profile__brief-title">Chinecherem Harry</h1>
+            <p className="profile__brief-text">
               A software developer, with an outstanding experience in front-end
               and a great technical understanding of the backend. I anticipate
               to collaborate with a passionate team to make positive and lasting
               impact.
-              <span className='getin-touch'>"Get in touch".</span>
+              <span className="getin-touch">"Get in touch".</span>
             </p>
-            <button className='btn btn-primary'>Download CV</button>
+            <button className="btn btn-primary">Download CV</button>
           </div>
-          <div className='profile__image'>
+          <div className="profile__image">
             <img
-              src='./images/minister2.png'
-              alt='profile-img'
-              loading='lazy'
+              src="./images/minister2.png"
+              alt="profile-img"
+              loading="lazy"
             />
           </div>
-          <div className='profile__paragraph1'>
-            <article className='profile__paragraph1-text1'>
-              <h3 className='profile__paragraph1-title1'>My Qualifications</h3>
+          <div className="profile__paragraph1">
+            <article className="profile__paragraph1-text1">
+              <h3 className="profile__paragraph1-title1">My Qualifications</h3>
               <p>
-                BSc – Information Technology at Eastern Mediterranean
-                University, North Cyprus, Turkey | 2014/2018. Masters – IT and
-                Management in Informatics at University West, Sweden. |
-                2019/Present.
+                BSc in Information Technology at Eastern Mediterranean
+                University, Cyprus <span style={{ fontWeight: 900 }}>|</span>{" "}
+                2014 <span style={{ fontWeight: 900 }}>-</span> 2018. Masters in
+                IT and Management in Informatics at University West, Sweden.{" "}
+                <span style={{ fontWeight: 900 }}>|</span> 2019{" "}
+                <span style={{ fontWeight: 900 }}>-</span> 2021.
               </p>
             </article>
-            <article className='profile__paragraph1-text1'>
-              <h3 className='profile__paragraph1-title2'>
+            <article className="profile__paragraph1-text1">
+              <h3 className="profile__paragraph1-title2">
                 Why you should hire me?
               </h3>
               <p>
@@ -66,8 +68,8 @@ const Profile = () => {
               </p>
             </article>
           </div>
-          <div className='profile__paragraph2'>
-            <article className='profile__paragraph2-text1'>
+          <div className="profile__paragraph2">
+            <article className="profile__paragraph2-text1">
               <p>
                 web applications which helps to digitalize certain typical
                 processes that in turn delivers contemporary services to users
@@ -75,31 +77,31 @@ const Profile = () => {
                 and imaginations into reality.
               </p>
             </article>
-            <article className='profile__paragraph2-text2'>
+            <article className="profile__paragraph2-text2">
               <p>
                 Have a look at my portfolio and CV for your convenient review.
                 Let’s discuss further about my contributions to your amazing
                 projects.
               </p>
             </article>
-            <article className='profile__paragraph2-text3'>
-              <h3 className='profile__paragraph2-title2'>Skill Set</h3>
-              <p style={{ fontWeight: '400' }}>Front-end Stacks:</p>
+            <article className="profile__paragraph2-text3">
+              <h3 className="profile__paragraph2-title2">Skill Set</h3>
+              <p style={{ fontWeight: "400" }}>Front-end Stacks:</p>
               <span>
                 ReactJs, Typescript, Javascript, CSS3, Sass, HTML5, Redux,
                 Context API, Material-UI, Bootstrap, Adobe Photoshop.
               </span>
-              <p style={{ fontWeight: '400' }}>Backend Stacks:</p>
+              <p style={{ fontWeight: "400" }}>Backend Stacks:</p>
               <span>Express, Firebase, MongoDb, MySql, NodeJs.</span>
             </article>
           </div>
-          <div className='profile__social'>
+          <div className="profile__social">
             <SocialMedia />
           </div>
         </>
       )}
     </main>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
